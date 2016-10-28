@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Json在线解析及格式化验证</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="Cache-Control" content="max-age=7200">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="baidu-site-verification" content="mlJsiTNxiD">
+    <meta name="google-site-verification" content="CPogK9tQWL5XIDF9F9x_tJyy1HtpDI8Rv6owOEIkUvM">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all">
+    <meta name="author" content="qljiang.com">
+    <meta name="keywords" content="json,json在线解析,json格式化,json格式验证,json转xml,xml转json">
+    <link href="//cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./assets/base.css" rel="stylesheet">
+    <style></style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicons -->
+</head>
+<body style="over-flow:hidden;">
+<header class="header">
+    <div class="row-fluid">
+        <div class="col-md-5" style="position:relative;">
+            <a class="logo" href="/">Json.<span style="color:#555;">qljiang.com</span></a>
+        </div>
+        <br style="clear:both;">
+    </div>
+</header>
+
+<main class="row-fluid">
+<div style="padding:10px;font-size:16px;border-bottom:solid 1px #ddd;" class="navi">
+            <a href="#" class="tip zip" title="" data-placement="bottom" data-original-title="压缩" style="color:#999;"><i class="fa fa-database"></i></a>
+            <a href="#" class="tip xml" title="" data-placement="bottom" data-original-title="转XML" style="color:#999;"><i class="fa fa-file-excel-o"></i></a>
+            <a href="#" class="tip shown" title="" data-placement="bottom" data-original-title="显示行号"><i class="glyphicon glyphicon-sort-by-order"></i></a>
+            <a href="#" class="tip clear" title="" data-placement="bottom" data-original-title="清空"><i class="fa fa-trash"></i></a>
+</div>
+<div class="col-md-4" style="padding:0;">
+    <div class="line-num" id="line-num-src"></div>
+    <div id="json-src-box">
+        <textarea id="json-src" placeholder="在此输入json字符串或XML字符串..." class="form-control""></textarea>
+    </div>
+</div>
+<div class="col-md-8" style="padding:0;">
+    <div id="right-box">
+        <div class="line-num" id="line-num-target"></div>
+        <div id="json-target"></div>
+    </div>
+</div>
+<br style="clear:both;">
+</main>
+
+<script src="//cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="./assets/jquery.message.js"></script><div style="clear:both;"></div><div id="jquery-beauty-msg"></div>
+<script src="./assets/jquery.json.js"></script>
+<script src="./assets/jquery.xml2json.js"></script>
+<script src="./assets/jquery.json2xml.js"></script>
+<script src="./assets/json2.js"></script>
+<script src="./assets/jsonlint.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="base.js"></script>
+</body>
+</html>

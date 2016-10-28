@@ -1,0 +1,114 @@
+body{
+    font-family:Menlo,Monaco,Consolas,"Helvetica Neue",Helvetica,"Courier New",'微软雅黑', monospace, Arial,sans-serif,'黑体';
+    color: #555;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Menlo,Monaco,Consolas,'微软雅黑';
+    color: #29abe2;
+}
+.green{
+    color:#0fd59d;
+}
+.red{
+    color:#f98280;
+}
+.blue{
+    color:#29abe2;
+}
+.json_key{ color: #92278f;font-weight:bold;}
+.json_null{color: #f1592a;font-weight:bold;}
+.json_string{ color: #3ab54a;font-weight:bold;}
+.json_number{ color: #25aae2;font-weight:bold;}
+.json_link{ color: #717171;font-weight:bold;}
+.json_array_brackets{}
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #15b374;
+}
+.label-success{
+    background-color: #0fd59d;
+}
+.header{
+    box-shadow: 0px 0px 1px #e5e5e5;
+    border-bottom: solid 1px #d5d5d5;
+    padding: 0px;
+    /*display: none;*/
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0fd59d;
+    padding: 10px;
+}
+.navi{
+    padding:5px 20px;
+    font-size:14px;
+    font-weight:bold;
+    font-family:Menlo,Monaco,Consolas,"Courier New",monospace, "Helvetica Neue",Helvetica,Arial,sans-serif,'幼圆'
+}
+.navi a{
+    padding: 0px 20px;
+    color: #999;
+}
+.navi a:hover{
+    color: #15b374;
+}
+
+.line-num{
+    background-color:#fafafa;
+    padding:0px 8px;
+    float:left;
+    border-right:dashed 1px #eee;
+    z-index:-1;
+    color:#999;
+    position:absolute;
+    text-align:center;
+    over-flow:hidden;
+}
+#numberedtextarea-line-numbers{
+    padding-top: 0px; line-height: 20px; font-family: Menlo, Monaco, Consolas, &quot;Helvetica Neue&quot;, Helvetica, &quot;Courier New&quot;, 微软雅黑, monospace, Arial, sans-serif, 黑体; width: 30px;
+}
+#right-box{
+    min-height:850px;
+    border-right:solid 1px #ddd;
+    border-bottom:solid 1px #ddd;
+    border-radius:0;
+    resize: none;
+    /*overflow-y:scroll; */
+    outline:none;
+    position:relative;
+}
+#json-src{
+    min-height:850px;
+    padding:0;
+    margin:0;
+    border:0;
+    border-radius:0;
+    resize: none; 
+    outline:none;
+}
+#json-target{padding:0 0 0 25px;}
+#json-src-box{
+    min-height:850px;
+    padding:0 0 0 25px;
+    border-right:solid 1px #ddd;
+    border-bottom:solid 1px #ddd;
+}
